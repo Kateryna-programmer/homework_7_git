@@ -250,3 +250,12 @@
     transform: scale(1.1);
   }
 }
+.text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.text__text {
+  text-align: justify;
+  font-size: 20px;
+  color: blue;
+}
