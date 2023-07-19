@@ -162,7 +162,8 @@
 }
 
 /* index */
-.bg-image {
+.bg-image,
+.new-bg {
   position: fixed;
   z-index: -1;
   top: 0;
@@ -230,4 +231,22 @@
 .new-class--text {
   font-size: 28px;
   color: rgb(0, 4, 255);
+}
+
+.image {
+  padding-top: 70px;
+  text-align: center;
+}
+.image__pic {
+  height: 300px;
+  width: 300px;
+  animation: sun 3s linear infinite;
+}
+@keyframes sun {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }
